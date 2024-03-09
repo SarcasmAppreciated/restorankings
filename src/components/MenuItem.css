@@ -1,0 +1,23 @@
+.menu-item-wrapper {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #BBB;
+}
+
+h3.resto {
+    cursor: pointer;
+}
+
+h3.heading {
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.tag-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}

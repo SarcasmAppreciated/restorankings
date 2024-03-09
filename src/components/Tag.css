@@ -1,0 +1,14 @@
+.tag {
+    background-color: #FFF;
+    border: 1px solid #BBB;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+    
+}
+
+.tag > p {
+    margin: 0;
+    word-wrap: normal;
+}

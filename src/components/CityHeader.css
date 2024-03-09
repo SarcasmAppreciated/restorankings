@@ -1,0 +1,15 @@
+#city-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+h1 {
+    color: #999;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+h1.selected {
+    color: #333;
+}
