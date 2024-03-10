@@ -6,11 +6,11 @@ import Restaurant from "./components/restaurant/Restaurant";
 
 const defaultRouter = createBrowserRouter([
     {
-      path: "/",
+      path: "/restorankings/",
       element: <Menu />
     },
     {
-      path: "restaurant/:restaurantId",
+      path: "/restorankings/restaurant/:restaurantId",
       element: <Restaurant />
     }
 ]);
