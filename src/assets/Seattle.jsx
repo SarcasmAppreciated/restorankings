@@ -597,7 +597,7 @@ export const seattle = [
     },
     {
         id: "rachels_ginger_beer",
-        name: "Black Bottle",
+        name: "Rachel's Ginger Beer",
         neighbourhood: "pike place",
         value: "high",
         tags: ["pike place", "ginger-beer", "low-high"],
