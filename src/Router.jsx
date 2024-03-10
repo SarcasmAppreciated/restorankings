@@ -1,17 +1,17 @@
 import {
-    createBrowserRouter
+    createHashRouter
 } from "react-router-dom";
 import Menu from "./components/Menu";
 import Restaurant from "./components/restaurant/Restaurant";
 
-const defaultRouter = createBrowserRouter([
+const defaultRouter = createHashRouter([
     {
-      path: "/restorankings/",
-      element: <Menu />
+        path: "/",
+        element: <Menu />
     },
     {
-      path: "/restorankings/restaurant/:restaurantId",
-      element: <Restaurant />
+        path: "/restaurant/:restaurantId",
+        element: <Restaurant />
     }
 ]);
 
