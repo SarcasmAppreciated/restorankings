@@ -6,7 +6,7 @@ function Header({heading}) {
         <div className="header-wrapper">
             <Link
                 className="no-underline"
-                to={"/"}>
+                to={"/restorankings/"}>
                     <h1 className="back-arrow">←</h1>
             </Link>
             <h1>{heading}</h1>
