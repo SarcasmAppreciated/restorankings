@@ -8,10 +8,11 @@
 }
 
 h3.resto {
+    color: #333;
     cursor: pointer;
 }
 
-h3.heading {
+h3.filter-category {
     font-weight: 300;
     text-transform: capitalize;
 }

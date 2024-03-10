@@ -1,0 +1,20 @@
+.property-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.property-wrapper.notes {
+    margin-top: 10px;
+}
+
+.property-wrapper > h3, .property-wrapper > p {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.property-wrapper > p.text {
+    text-transform: none;
+}

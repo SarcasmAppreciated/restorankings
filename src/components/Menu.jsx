@@ -4,53 +4,16 @@ import CityHeader from "./CityHeader";
 import Filter from "./Filter";
 import List from "./List";
 import SearchBar from "./SearchBar";
+import { cities, getCityNeighbourhoods, getCityData } from "../assets/CityRouter";
+import { defaultFilterCategories, filters } from "../assets/Constants";
 
 function Menu() {
-    const filters = ["value", "neighbourhood"];
-    const seattleFilterCategories = [
-        ["high", "medium", "low", "to try"],
-        ["downtown", "capitol hill", "fremont", "sodo", "slu"]
-    ];
-    const seattle = [
-        {
-            name: "Sushi Kashiba",
-            neighbourhood: "downtown",
-            value: "high",
-            tags: ["downtown", "expensive", "sushi"]
-        },
-        {
-            name: "Tavoláta Capitol Hill",
-            neighbourhood: "capitol hill",
-            value: "medium",
-            tags: ["capitol hill", "pasta", "italian"]
-        },
-        {
-            name: "Mamoon",
-            neighbourhood: "capitol hill",
-            value: "medium",
-            tags: ["capitol hill", "middle eastern", "lebanese"]
-        },
-        {
-            name: "Pie Bar",
-            neighbourhood: "capitol hill",
-            value: "high",
-            tags: ["capitol hill", "pie", "late night"]
-        }
-    ];
-    const vancouverFilterCategories = [
-        ["high", "medium", "low", "to try"],
-        ["downtown", "kitsilano"]
-    ];
-    const vancouver = [];
-    
-    const cities = ["seattle", "vancouver"];
-    const [city, setCity] = useState("seattle");
-    const data = city === "seattle" ? seattle : vancouver;
-    const filterCategories = city === "seattle" ? seattleFilterCategories : vancouverFilterCategories;
-    let [search, setSearch] = useState([]);
-    let [currentInput, setCurrentInput] = useState("");
-    let filteredSample = data.filter((resto) => search.every(v => resto.tags.includes(v)));
-    let [filter, setFilter] = useState(0);
+    const [city, setCity] = useState(cities[0]);
+    const [search, setSearch] = useState([]);
+    const [currentInput, setCurrentInput] = useState("");
+    const [filter, setFilter] = useState(0);
+    const filterCategories = getCityNeighbourhoods(city, defaultFilterCategories);
+    const filteredSample = getCityData(city).filter((resto) => search.every(v => resto.tags.includes(v)));
     return (
         <>
             <CityHeader

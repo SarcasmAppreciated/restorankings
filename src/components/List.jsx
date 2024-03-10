@@ -1,18 +1,20 @@
 import "./List.css";
-import Heading from "./Heading";
+import FilterCategory from "./FilterCategory";
 import MenuItem from "./MenuItem";
 
 function List({filter, filters, filterCategories, filteredSample, search, setSearch}) {
-    let headingMap = new Map();
-    filterCategories[filter].forEach((heading) => {
-        headingMap.set(heading, filteredSample.filter((resto) => resto[filters[filter]] === heading));
+    let filterMap = new Map();
+    filterCategories[filter].forEach((filterName) => {
+        filterMap.set(filterName, filteredSample.filter((resto) => resto[filters[filter]] === filterName));
     });
     return (
         <div id="list">
-            {[...headingMap.keys()].map((heading, k) => 
+            {[...filterMap.keys()].map((filterName, k) => 
                 <div key={k}>
-                    <Heading name={heading} />
-                    {headingMap.get(heading).map((element, key) =>
+                    <FilterCategory name={filterName} />
+                    {filterMap.get(filterName)
+                        .sort((a, b) => a.name.localeCompare(b.name))
+                        .map((element, key) =>
                         <MenuItem
                             key={key}
                             element={element}
