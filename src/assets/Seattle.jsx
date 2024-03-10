@@ -107,7 +107,7 @@ export const seattle = [
     },
     {
         id: "barolo_ristorante",
-        name: "Barolo Ristorante (low)",
+        name: "Barolo Ristorante",
         neighbourhood: "denny triangle",
         value: "high",
         tags: ["denny triangle", "low-high", "italian"],
@@ -484,5 +484,45 @@ export const seattle = [
         address: "5300 Rainier Ave S, Seattle, WA 98118",
         notes: "-",
         dateOfReview: "2016"
+    },
+    {
+        id: "tamari_bar",
+        name: "Tamari Bar",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "izakaya", "japanese", "low-high"],
+        address: "500 E Pine St, Seattle, WA 98122",
+        notes: "The least of the Suika group but still a fun place to eat.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "rondo",
+        name: "Rondo",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "izakaya", "japanese"],
+        address: "224 Broadway E, Seattle, WA 98102",
+        notes: "Something for everyone. My favourite is the katsu meal set.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "fogon_cocina_mexicana",
+        name: "Fogón Cocina Mexicana",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "mexican"],
+        address: "600 E Pine St, Seattle, WA 98122",
+        notes: "The tacos shells are made in front of you.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "mercado_luna",
+        name: "Mercado Luna",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "mexican", "low-high"],
+        address: "422 E Pine St, Seattle, WA 98122",
+        notes: "Also fresh taco shells but quite a bit more expensive than Fogon.",
+        dateOfReview: "2023"
     },
 ];
