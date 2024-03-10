@@ -545,14 +545,14 @@ export const seattle = [
         dateOfReview: "2023"
     },
     {
-        id: "kobuta_okami",
-        name: "Kobuta & Ookami",
+        id: "foreign_national",
+        name: "Foreign National",
         neighbourhood: "capitol hill",
         value: "high",
-        tags: ["capitol hill", "katsu", "japanese"],
-        address: "121 15th Ave E, Seattle, WA 98112",
-        notes: "The cheese is a trap - it's so rich lol.",
-        dateOfReview: "2023"
+        tags: ["capitol hill", "cocktails"],
+        address: "300 E Pike St, Seattle, WA 98122",
+        notes: "I told the bartender we'd visit often and haven't been back since xd. But it's actually worth lining up for.",
+        dateOfReview: "2022"
     },
     {
         id: "wild_ginger",
