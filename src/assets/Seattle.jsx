@@ -586,14 +586,14 @@ export const seattle = [
         dateOfReview: "2022"
     },
     {
-        id: "black_bottle",
-        name: "Black Bottle",
-        neighbourhood: "belltown",
+        id: "dough_zone",
+        name: "Dough Zone",
+        neighbourhood: "denny triangle",
         value: "high",
-        tags: ["belltown", "bar", "low-high"],
-        address: "2600 1st Ave, Seattle, WA 98121",
-        notes: "Very dimly lit. It's a vibe that some people might not enjoy.",
-        dateOfReview: "2022"
+        tags: ["denny triangle", "xiao long bao", "chinese"],
+        address: "815 Pine St, Seattle, WA 98101",
+        notes: "Very packed whenever there's a show or convention across the street.",
+        dateOfReview: "2023"
     },
     {
         id: "rachels_ginger_beer",
