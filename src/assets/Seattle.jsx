@@ -1,7 +1,7 @@
 export const seattleFilterCategories = [
     ["downtown", "capitol hill", "fremont", "lower queen anne",
     "ballard", "belltown", "denny triangle", "eastlake", "bellevue",
-    "south seattle", "madison", "central district"]
+    "south seattle", "madison", "central district", "slu", "international district"]
 ];
 
 export const seattle = [
@@ -108,9 +108,9 @@ export const seattle = [
     {
         id: "barolo_ristorante",
         name: "Barolo Ristorante (low)",
-        neighbourhood: "denny_triangle",
+        neighbourhood: "denny triangle",
         value: "high",
-        tags: ["denny_triangle", "low-high", "italian"],
+        tags: ["denny triangle", "low-high", "italian"],
         address: "1940 Westlake Ave, Seattle, WA 98101",
         notes: "Decent value; enough to be high but on the lower end.",
         dateOfReview: "2018"
@@ -374,5 +374,115 @@ export const seattle = [
         address: "1535 14th Ave, Seattle, WA 98122",
         notes: "Spinasse's lil bro. Great food and more casual environment.",
         dateOfReview: "2024"
+    },
+    {
+        id: "supreme_dumplings",
+        name: "Supreme Dumplings",
+        neighbourhood: "bellevue",
+        value: "high",
+        tags: ["bellevue", "xiao long bao", "chinese"],
+        address: "14603 NE 20th St #4B, Bellevue, WA 98007",
+        notes: "Best dumplings in town for the price.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "ishoni_yakiniku",
+        name: "Ishoni Yakiniku",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "yakiniku", "japanese"],
+        address: "611 Broadway E, Seattle, WA 98102",
+        notes: "Go early or get a reso.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "moto_pizza",
+        name: "Moto Pizza",
+        neighbourhood: "belltown",
+        value: "high",
+        tags: ["belltown", "detroit-style pizza"],
+        address: "3131 Western Ave #301, Seattle, WA 98121",
+        notes: "Not the original location but same great pizza with half the travel time.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "roquette",
+        name: "Roquette",
+        neighbourhood: "belltown",
+        value: "medium",
+        tags: ["belltown", "cocktails", "expensive"],
+        address: "2232 1st Ave, Seattle, WA 98121",
+        notes: "Great but expensive cocktails; the bartenders are very knowledgeable.",
+        dateOfReview: "2021"
+    },
+    {
+        id: "the_berliner_doner_kebab",
+        name: "The Berliner Döner Kebab",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "doner"],
+        address: "428 Westlake Ave N, Seattle, WA 98109",
+        notes: "-",
+        dateOfReview: "2016"
+    },
+    {
+        id: "boiling_point",
+        name: "Boiling Point",
+        neighbourhood: "international district",
+        value: "medium",
+        tags: ["international district", "hotpot", "asian"],
+        address: "610 5th Ave S South, Seattle, WA 98104",
+        notes: "-",
+        dateOfReview: "2021"
+    },
+    {
+        id: "serious_pie_biscuit",
+        name: "Serious Pie & Biscuit",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "pizza"],
+        address: "2001 4th Ave, Seattle, WA 98121",
+        notes: "-",
+        dateOfReview: "2018"
+    },
+    {
+        id: "tilikum_place_cafe",
+        name: "Tilikum Place Café",
+        neighbourhood: "denny triangle",
+        value: "medium",
+        tags: ["denny triangle", "european"],
+        address: "407 Cedar St, Seattle, WA 98121",
+        notes: "Hazelnut pasta is great.",
+        dateOfReview: "2018"
+    },
+    {
+        id: "firefly",
+        name: "Firefly",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "cafeteria"],
+        address: "500 9th Ave N, Seattle, WA 98109",
+        notes: "-",
+        dateOfReview: "2018"
+    },
+    {
+        id: "tutta_bella",
+        name: "Tutta Bella",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "pizza", "italian"],
+        address: "2200 Westlake Avenue, Ste. 112, Seattle, WA 98121",
+        notes: "-",
+        dateOfReview: "2017"
+    },
+    {
+        id: "sam_choys_poke_to_the_max",
+        name: "Sam Choy's Poke to the Max",
+        neighbourhood: "south seattle",
+        value: "medium",
+        tags: ["south seattle", "poke", "hawaiian"],
+        address: "5300 Rainier Ave S, Seattle, WA 98118",
+        notes: "-",
+        dateOfReview: "2016"
     },
 ];
