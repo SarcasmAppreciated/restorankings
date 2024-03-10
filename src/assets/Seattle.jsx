@@ -1,7 +1,6 @@
 export const seattleFilterCategories = [
-    ["downtown", "capitol hill", "fremont", "lower queen anne", "pike place",
-    "ballard", "belltown", "denny triangle", "eastlake", "bellevue",
-    "south seattle", "madison", "central district", "slu", "international district"]
+    ["ballard", "belltown", "bellevue", "capitol hill", "central district", "denny triangle", "eastlake", "fremont",
+    "international district", "lower queen anne", "madison", "pike place", "slu", "south seattle"]
 ];
 
 export const seattle = [
@@ -646,13 +645,33 @@ export const seattle = [
         dateOfReview: "2022"
     },
     {
-        id: "piroshky_piroshky",
-        name: "Piroshky Piroshky",
+        id: "nanas_green_tea",
+        name: "Nana's Green Tea",
         neighbourhood: "denny triangle",
         value: "high",
-        tags: ["denny triangle", "russian", "bakery"],
-        address: "1000 Pine St Ste 433, Seattle, WA 98101",
-        notes: "I've listed the convention center location because the pike place location is mad house.",
-        dateOfReview: "2022"
+        tags: ["denny triangle", "japanese", "sweets", "katsu"],
+        address: "1007 Stewart St #103, Seattle, WA 98101",
+        notes: "Crowded during workdays. I love hojicha so this place is an easy sell.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "din_tai_fung",
+        name: "Din Tai Fung",
+        neighbourhood: "denny triangle",
+        value: "middle",
+        tags: ["denny triangle", "chinese", "dim sum"],
+        address: "600 Pine St #403, Seattle, WA 98101",
+        notes: "There are T&T's with better dim sum for a quarter of the price in Canadian.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "taylor_shellfish",
+        name: "Taylor Shellfish",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "seafood"],
+        address: "1521 Melrose Ave, Seattle, WA 98122",
+        notes: "The crab mac and cheese is to die for.",
+        dateOfReview: "2023"
     },
 ];
