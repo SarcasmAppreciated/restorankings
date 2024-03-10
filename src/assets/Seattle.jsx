@@ -1,5 +1,5 @@
 export const seattleFilterCategories = [
-    ["downtown", "capitol hill", "fremont", "lower queen anne",
+    ["downtown", "capitol hill", "fremont", "lower queen anne", "pike place",
     "ballard", "belltown", "denny triangle", "eastlake", "bellevue",
     "south seattle", "madison", "central district", "slu", "international district"]
 ];
@@ -8,9 +8,9 @@ export const seattle = [
     {
         id: "sushi_kashiba",
         name: "Sushi Kashiba",
-        neighbourhood: "downtown",
+        neighbourhood: "pike place",
         value: "high",
-        tags: ["downtown", "expensive", "sushi", "japanese", "omakase"],
+        tags: ["pike place", "expensive", "sushi", "japanese", "omakase"],
         address: "86 Pine St Suite #1, Seattle, WA 98101",
         notes: "Used to be the best sushi in town; now, still good but probably surpassed by students.",
         dateOfReview: "Have not been in a while - 2018?"
@@ -524,5 +524,135 @@ export const seattle = [
         address: "422 E Pine St, Seattle, WA 98122",
         notes: "Also fresh taco shells but quite a bit more expensive than Fogon.",
         dateOfReview: "2023"
+    },
+    {
+        id: "kedai_makan",
+        name: "Kedai Makan",
+        neighbourhood: "capitol hill",
+        value: "middle",
+        tags: ["capitol hill", "malaysian"],
+        address: "1449 E Pine St, Seattle, WA 98122",
+        notes: "After the buy-out, I'm not sure I'll ever go back. Was a high before.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "kobuta_okami",
+        name: "Kobuta & Ookami",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "katsu", "japanese"],
+        address: "121 15th Ave E, Seattle, WA 98112",
+        notes: "The cheese is a trap - it's so rich lol.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "kobuta_okami",
+        name: "Kobuta & Ookami",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "katsu", "japanese"],
+        address: "121 15th Ave E, Seattle, WA 98112",
+        notes: "The cheese is a trap - it's so rich lol.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "wild_ginger",
+        name: "Wild Ginger",
+        neighbourhood: "slu",
+        value: "middle",
+        tags: ["slu", "asian", "fusion"],
+        address: "2202B 8th Ave, Seattle, WA 98121",
+        notes: "Hit or miss. Decent if you're not footing the bill if you catch my drift.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "some_random_bar",
+        name: "Some Random Bar",
+        neighbourhood: "belltown",
+        value: "high",
+        tags: ["belltown", "bar", "low-high"],
+        address: "2604 1st Ave, Seattle, WA 98121",
+        notes: "A decent bar. I've only had bad experiences with the random xd.",
+        dateOfReview: "2022"
+    },
+    {
+        id: "black_bottle",
+        name: "Black Bottle",
+        neighbourhood: "belltown",
+        value: "high",
+        tags: ["belltown", "bar", "low-high"],
+        address: "2600 1st Ave, Seattle, WA 98121",
+        notes: "Very dimly lit. It's a vibe that some people might not enjoy.",
+        dateOfReview: "2022"
+    },
+    {
+        id: "black_bottle",
+        name: "Black Bottle",
+        neighbourhood: "belltown",
+        value: "high",
+        tags: ["belltown", "bar", "low-high"],
+        address: "2600 1st Ave, Seattle, WA 98121",
+        notes: "Very dimly lit. It's a vibe that some people might not enjoy.",
+        dateOfReview: "2022"
+    },
+    {
+        id: "rachels_ginger_beer",
+        name: "Black Bottle",
+        neighbourhood: "pike place",
+        value: "high",
+        tags: ["pike place", "ginger-beer", "low-high"],
+        address: "1530 Post Alley, Seattle, WA 98101",
+        notes: "I used to drink this stuff by the jug when I was an intern.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "mee_sum_pastry",
+        name: "Mee Sum Pastry",
+        neighbourhood: "pike place",
+        value: "high",
+        tags: ["pike place", "chinese", "bakery"],
+        address: "1526 Pike Pl, Seattle, WA 98101",
+        notes: "The real deal; why do I have to go to Pike Market for the real deal?",
+        dateOfReview: "2023"
+    },
+    {
+        id: "pike_place_chowder",
+        name: "Pike Place Chowder",
+        neighbourhood: "pike place",
+        value: "high",
+        tags: ["pike place", "chowder"],
+        address: "1530 Post Alley, Seattle, WA 98101",
+        notes: "Famous and yet suprisingly good. There's a counter behind the resto in the sanitation building where you can order more easily.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "the_crumpet_shop",
+        name: "The Crumpet Shop",
+        neighbourhood: "pike place",
+        value: "high",
+        tags: ["pike place", "crumpets"],
+        address: "1503 1st Ave, Seattle, WA 98101",
+        notes: "One of the few redeeming places in the market.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "piroshky_piroshky",
+        name: "Piroshky Piroshky",
+        neighbourhood: "denny triangle",
+        value: "high",
+        tags: ["denny triangle", "russian", "bakery"],
+        address: "1503 1st Ave, Seattle, WA 98101",
+        notes: "I've listed the convention center location because the pike place location is mad house.",
+        dateOfReview: "2022"
+    },
+    {
+        id: "piroshky_piroshky",
+        name: "Piroshky Piroshky",
+        neighbourhood: "denny triangle",
+        value: "high",
+        tags: ["denny triangle", "russian", "bakery"],
+        address: "1000 Pine St Ste 433, Seattle, WA 98101",
+        notes: "I've listed the convention center location because the pike place location is mad house.",
+        dateOfReview: "2022"
     },
 ];
