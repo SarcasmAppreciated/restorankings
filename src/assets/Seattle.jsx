@@ -1,6 +1,7 @@
 export const seattleFilterCategories = [
-    ["ballard", "belltown", "bellevue", "capitol hill", "central district", "denny triangle", "eastlake", "fremont",
-    "international district", "lower queen anne", "madison", "pike place", "slu", "south seattle"]
+    ["ballard", "beacon hill", "belltown", "bellevue", "capitol hill", "central district",
+    "denny triangle", "downtown", "eastlake", "fremont", "green lake", "international district",
+    "lower queen anne", "madison", "pike place", "slu", "south seattle"]
 ];
 
 export const seattle = [
@@ -299,7 +300,7 @@ export const seattle = [
         name: "Carrello",
         neighbourhood: "capitol hill",
         value: "high",
-        tags: ["capitol hill", "italian"],
+        tags: ["capitol hill", "italian", "low-high"],
         address: "622 Broadway E, Seattle, WA 98102",
         notes: "Altura's little brother - still excellent.",
         dateOfReview: "2023"
@@ -714,5 +715,504 @@ export const seattle = [
         notes: "Chain steakhouse - it's very pricey. Get your company to pay for dinner.",
         dateOfReview: "2023"
     },
-    
+    {
+        id: "liuyishou_hotpot",
+        name: "Liuyishou Hotpot",
+        neighbourhood: "bellevue",
+        value: "high",
+        tags: ["bellevue", "hotpot", "chinese"],
+        address: "1644 140th Ave NE, Bellevue, WA 98005",
+        notes: "One of the better hotpot chains. The beef fat statue is very rich.",
+        dateOfReview: "2022"
+    },
+    {
+        id: "hai_di_lao",
+        name: "Hai Di Lao",
+        neighbourhood: "denny triangle",
+        value: "medium",
+        tags: ["denny triangle", "hotpot", "chinese"],
+        address: "600 Pine St Suite 355, Seattle, WA 98101",
+        notes: "Much better in Asia.",
+        dateOfReview: "2022"
+    },
+    {
+        id: "betsutenjin",
+        name: "Betsutenjin",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "ramen", "japanese"],
+        address: "954 E Union St #102, Seattle, WA 98122",
+        notes: "Opens late.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "ramen_danbo",
+        name: "Ramen Danbo",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "ramen", "japanese", "low-high"],
+        address: "1222 E Pine St, Seattle, WA 98122",
+        notes: "It's probably best in town outside of Santouka; hard not to draw comparisons to Vancouver ramen scene.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "menya_musashi",
+        name: "Menya Musashi",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "ramen", "japanese"],
+        address: "1510 Belmont Ave, Seattle, WA 98122",
+        notes: "-",
+        dateOfReview: "2022"
+    },
+    {
+        id: "phocific_standard_time",
+        name: "Phocific Standard Time (PST)",
+        neighbourhood: "slu",
+        value: "high",
+        tags: ["slu", "vietnamese", "cocktails", "speakeasy"],
+        address: "1923 7th Ave, Seattle, WA 98101",
+        notes: "One of my favourite cocktail bars in town. Highly recommend the cooling water.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "ooink",
+        name: "Ooink",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "ramen", "japanese"],
+        address: "1416 Harvard Ave, Seattle, WA 98122",
+        notes: "-",
+        dateOfReview: "2023"
+    },
+    {
+        id: "stone_korean_restaurant",
+        name: "Stone Korean Restaurant",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "ramen", "japanese"],
+        address: "900 Dexter Ave N, Seattle, WA 98109",
+        notes: "-",
+        dateOfReview: "2022"
+    },
+    {
+        id: "momiji",
+        name: "Momiji",
+        neighbourhood: "capitol hill",
+        value: "low",
+        tags: ["capitol hill", "sushi", "japanese"],
+        address: "1522 12th Ave, Seattle, WA 98122",
+        notes: "Some of the worst value sushi in town - all locations.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "macleods_scottish_pub",
+        name: "Macleod’s Scottish Pub",
+        neighbourhood: "ballard",
+        value: "high",
+        tags: ["ballard", "fish & chips", "scottish"],
+        address: "5200 Ballard Ave NW, Seattle, WA 98107",
+        notes: "To be fair, besides the fish and chips, I don't know what the other food is like.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "qiao_lin_hotpot",
+        name: "Qiao Lin Hotpot",
+        neighbourhood: "slu",
+        value: "high",
+        tags: ["slu", "hotpot", "chinese"],
+        address: "1510 7th Ave, Seattle, WA 98101",
+        notes: "Probably the best hotpot chain in town.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "di_fiora",
+        name: "Di Fiora",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "asian", "european"],
+        address: "1320 University St suite 1, Seattle, WA 98101",
+        notes: "You're paying for the aesthetic.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "le_coin",
+        name: "Le Coin",
+        neighbourhood: "fremont",
+        value: "medium",
+        tags: ["fremont", "french"],
+        address: "4201 Fremont Ave N, Seattle, WA 98103",
+        notes: "Very close to high.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "paju",
+        name: "Paju",
+        neighbourhood: "lower queen anne",
+        value: "medium",
+        tags: ["lower queen anne", "korean"],
+        address: "11 Mercer St, Seattle, WA 98109",
+        notes: "Was a miss for me; quality is decent.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "wasabi",
+        name: "Wasabi",
+        neighbourhood: "belltown",
+        value: "low",
+        tags: ["belltown", "sushi", "izakaya", "japanese"],
+        address: "2311 2nd Ave, Seattle, WA 98121",
+        notes: "Awful.",
+        dateOfReview: "2021"
+    },
+    {
+        id: "serious_pie",
+        name: "Serious_Pie",
+        neighbourhood: "belltown",
+        value: "low",
+        tags: ["belltown", "pizza"],
+        address: "2001 4th Ave, Seattle, WA 98121",
+        notes: "Most pathetic pizza in town for the price.",
+        dateOfReview: "2020"
+    },
+    {
+        id: "altura",
+        name: "Altura",
+        neighbourhood: "capitol hill",
+        value: "to try",
+        tags: ["capitol hill", "italian"],
+        address: "617 Broadway E, Seattle, WA 98102",
+        notes: "Contender for best Italian in town.",
+        dateOfReview: ""
+    },
+    {
+        id: "shambles",
+        name: "Shambles",
+        neighbourhood: "green lake",
+        value: "to try",
+        tags: ["green lake", "italian"],
+        address: "7777 15th Ave NE, Seattle, WA 98115",
+        notes: "Contender for best Italian in town.",
+        dateOfReview: ""
+    },
+    {
+        id: "shambles",
+        name: "Shambles",
+        neighbourhood: "green lake",
+        value: "to try",
+        tags: ["green lake", "sandwiches"],
+        address: "7777 15th Ave NE, Seattle, WA 98115",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "musang",
+        name: "Musang",
+        neighbourhood: "beacon hill",
+        value: "to try",
+        tags: ["beacon hill", "filipino"],
+        address: "2524 Beacon Ave S, Seattle, WA 98144",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "wataru",
+        name: "Wataru",
+        neighbourhood: "green lake",
+        value: "to try",
+        tags: ["green lake", "sushi", "japanese"],
+        address: "2400 NE 65th St, Seattle, WA 98115",
+        notes: "Yikes amount of press xd.",
+        dateOfReview: ""
+    },
+    {
+        id: "monsoon",
+        name: "Monsoon",
+        neighbourhood: "capitol hill",
+        value: "to try",
+        tags: ["capitol hill", "vietnamese"],
+        address: "615 19th Ave E, Seattle, WA 98112",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "lionhead",
+        name: "Lionhead",
+        neighbourhood: "capitol hill",
+        value: "to try",
+        tags: ["capitol hill", "sichuan", "chinese"],
+        address: "618 Broadway E, Seattle, WA 98102",
+        notes: "I don't know if I'll ever try this place cause it's spicy ><.",
+        dateOfReview: ""
+    },
+    {
+        id: "manolin",
+        name: "Manolin",
+        neighbourhood: "fremont",
+        value: "to try",
+        tags: ["fremont", "american"],
+        address: "3621 Stone Way N, Seattle, WA 98103",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "skal_beer_hall",
+        name: "Skål Beer Hall",
+        neighbourhood: "ballard",
+        value: "to try",
+        tags: ["ballard", "bar", "norwegian"],
+        address: "5429 Ballard Ave NW, Seattle, WA 98107",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "parish",
+        name: "Parish",
+        neighbourhood: "ballard",
+        value: "to try",
+        tags: ["ballard", "cajun"],
+        address: "5327 Ballard Ave NW, Seattle, WA 98107",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "the_harvest_vine",
+        name: "The Harvest Vine",
+        neighbourhood: "central district",
+        value: "to try",
+        tags: ["central district", "spanish"],
+        address: "2701 E Madison St, Seattle, WA 98112",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "bar_cotto",
+        name: "Bar cotto",
+        neighbourhood: "capitol hill",
+        value: "to try",
+        tags: ["capitol hill", "pizza", "bar"],
+        address: "1546 15th Ave, Seattle, WA 98122",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "purple_cafe_and_wine_bar",
+        name: "Purple Cafe and Wine Bar",
+        neighbourhood: "downtown",
+        value: "to try",
+        tags: ["downtown", "american"],
+        address: "1225 4th Ave, Seattle, WA 98101",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "boat_bar",
+        name: "Boat Bar",
+        neighbourhood: "capitol hill",
+        value: "to try",
+        tags: ["capitol hill", "seafood"],
+        address: "1060 E Union St, Seattle, WA 98109",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "the_boat",
+        name: "The Boat",
+        neighbourhood: "international district",
+        value: "to try",
+        tags: ["international district", "seafood"],
+        address: "1314 S Jackson St, Seattle, WA 98144",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "rock_creek",
+        name: "The Boat",
+        neighbourhood: "fremont",
+        value: "to try",
+        tags: ["fremont", "seafood"],
+        address: "4300 Fremont Ave N, Seattle, WA 98103",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "homer",
+        name: "Homer",
+        neighbourhood: "south seattle",
+        value: "to try",
+        tags: ["south seattle", "mediterranean"],
+        address: "3013 Beacon Ave S, Seattle, WA 98144",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "lark_restaurant",
+        name: "Lark Restaurant",
+        neighbourhood: "capitol hill",
+        value: "to try",
+        tags: ["capitol hill", "american"],
+        address: "952 E Seneca St, Seattle, WA 98122",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "light_sleeper",
+        name: "Light Sleeper",
+        neighbourhood: "capitol hill",
+        value: "to try",
+        tags: ["capitol hill", "wine", "bar"],
+        address: "1424 11th Ave Suite D, Seattle, WA 98122",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "violet",
+        name: "Violet",
+        neighbourhood: "capitol hill",
+        value: "to try",
+        tags: ["capitol hill", "omakase", "american"],
+        address: "1734 12th Ave, Seattle, WA 98122",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "founders_club",
+        name: "Founder's Club",
+        neighbourhood: "downtown",
+        value: "to try",
+        tags: ["downtown", "bar"],
+        address: "411 University St, Seattle, WA 98101",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "sophon",
+        name: "Sophon",
+        neighbourhood: "green lake",
+        value: "to try",
+        tags: ["green lake", "cambodian"],
+        address: "7314 Greenwood Ave N, Seattle, WA 98103",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "skalka",
+        name: "Skalka",
+        neighbourhood: "downtown",
+        value: "to try",
+        tags: ["downtown", "breakfast", "eastern-european"],
+        address: "7314 Greenwood Ave N, Seattle, WA 98103",
+        notes: "I've only had delivery.",
+        dateOfReview: ""
+    },
+    {
+        id: "azuki",
+        name: "Azuki",
+        neighbourhood: "central district",
+        value: "to try",
+        tags: ["central district", "udon", "japanese"],
+        address: "2711 E Madison St, Seattle, WA 98112",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "oxbow",
+        name: "Oxbow",
+        neighbourhood: "eastlake",
+        value: "to try",
+        tags: ["eastlake", "bagels", "bakery"],
+        address: "2307 24th Ave E, Seattle, WA 98112",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "portage_bay_cafe",
+        name: "Portage Bay Cafe",
+        neighbourhood: "slu",
+        value: "high",
+        tags: ["slu", "brunch", "american"],
+        address: "391 Terry Ave N, Seattle, WA 98109",
+        notes: "One of the best brunches in town.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "art_marble_21",
+        name: "Art Marble 21",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "bar", "american"],
+        address: "731 Westlake Ave N, Seattle, WA 98109",
+        notes: "A company favourite.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "flatstick_pub",
+        name: "Flatstick Pub",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "bar"],
+        address: "609 Westlake Ave N, Seattle, WA 98109",
+        notes: "Mini-golf!",
+        dateOfReview: "2023"
+    },
+    {
+        id: "buca_di_beppo_italian_restaurant",
+        name: "Buca di Beppo Italian Restaurant",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "italian"],
+        address: "701 Westlake Ave N, Seattle, WA 98109",
+        notes: "-",
+        dateOfReview: "2022"
+    },
+    {
+        id: "hurry_curry",
+        name: "Hurry Curry",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "curry", "japanese"],
+        address: "825 Harrison St, Seattle, WA 98109",
+        notes: "-",
+        dateOfReview: "2019"
+    },
+    {
+        id: "thomas_street_warehouse",
+        name: "Thomas Street Warehouse",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "fast", "bar"],
+        address: "915 Thomas St, Seattle, WA 98109",
+        notes: "A Vancouver import.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "republic",
+        name: "re:public",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "american"],
+        address: "429 Westlake Ave N, Seattle, WA 98109",
+        notes: "Allows dogs on the patio.",
+        dateOfReview: "2021"
+    },
+    {
+        id: "skillet",
+        name: "Skillet",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "american"],
+        address: "1400 E Union St, Seattle, WA 98122",
+        notes: "-",
+        dateOfReview: "2022"
+    },
+    {
+        id: "mirch_masala",
+        name: "Mirch Masala",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "indian"],
+        address: "213 Broadway E, Seattle, WA 98102",
+        notes: "-",
+        dateOfReview: "2023"
+    }
 ];

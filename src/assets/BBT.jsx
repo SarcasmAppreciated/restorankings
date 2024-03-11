@@ -33,4 +33,34 @@ export const bbt = [
         notes: "Awesome branding; decent bbt for not bad prices relatively.",
         dateOfReview: "2024"
     },
+    {
+        id: "comebuy_tea",
+        name: "ComeBuy Tea",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "bbt"],
+        address: "824 E Pike St, Seattle, WA 98122",
+        notes: "Gives Chicha SEN cha a run for their money and not on the eastside.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "tea_addicts",
+        name: "Tea Addicts",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "bbt"],
+        address: "1527 Harvard Ave, Seattle, WA 98122",
+        notes: "-",
+        dateOfReview: "2023"
+    },
+    {
+        id: "drip_tea",
+        name: "DRIP Tea",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "bbt", "instagram"],
+        address: "1416 10th Ave, Seattle, WA 98122",
+        notes: "Paying for aesthetic.",
+        dateOfReview: "2023"
+    },
 ];
