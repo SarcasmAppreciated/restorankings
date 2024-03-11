@@ -1,18 +1,20 @@
 .header-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
 }
 
-h1.city-heading, .back-arrow {
+h1.city-heading {
     color: #999;
     text-transform: capitalize;
     cursor: pointer;
 }
 
 .back-arrow {
+    margin-right: 20px;
     line-height: 40px;
-    margin-right: 15px;
+    color: #666;
+    cursor: pointer;
 }
 
 h1.selected {
