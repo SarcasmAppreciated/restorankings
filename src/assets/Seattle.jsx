@@ -162,7 +162,7 @@ export const seattle = [
         value: "high",
         tags: ["fremont", "korean", "steakhouse"],
         address: "3506 Stone Way N, Seattle, WA 98103",
-        notes: "The brunch is(was) suprisingly good.",
+        notes: "The brunch is/was suprisingly good.",
         dateOfReview: "2019"
     },
     {
