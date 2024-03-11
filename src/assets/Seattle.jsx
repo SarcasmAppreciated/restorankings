@@ -249,7 +249,7 @@ export const seattle = [
         name: "Bathtub Gin & Co.",
         neighbourhood: "belltown",
         value: "high",
-        tags: ["belltown", "cocktails"],
+        tags: ["belltown", "cocktails", "speakeasy"],
         address: "2205 2nd Ave #310, Seattle, WA 98121",
         notes: "Speakeasy hidden in the alley.",
         dateOfReview: "2023"
@@ -549,7 +549,7 @@ export const seattle = [
         name: "Foreign National",
         neighbourhood: "capitol hill",
         value: "high",
-        tags: ["capitol hill", "cocktails"],
+        tags: ["capitol hill", "cocktails", "speakeasy"],
         address: "300 E Pike St, Seattle, WA 98122",
         notes: "I told the bartender we'd visit often and haven't been back since xd. But it's actually worth lining up for.",
         dateOfReview: "2022"
@@ -669,9 +669,50 @@ export const seattle = [
         name: "Taylor Shellfish",
         neighbourhood: "capitol hill",
         value: "high",
-        tags: ["capitol hill", "seafood"],
+        tags: ["capitol hill", "seafood", "low-high"],
         address: "1521 Melrose Ave, Seattle, WA 98122",
-        notes: "The crab mac and cheese is to die for.",
+        notes: "The crab mac and cheese is to die for. Low-high cause a lil pricey.",
         dateOfReview: "2023"
     },
+    {
+        id: "knee_high_stocking_co",
+        name: "Knee High Stocking Co",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "cocktails", "speakeasy"],
+        address: "1356 E Olive Wy, Seattle, WA 98122",
+        notes: "You used to have to call to get in; very cool environment.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "kizuki_ramen",
+        name: "Kizuki Ramen",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "ramen", "japanese"],
+        address: "320 E Pine St, Seattle, WA 98122",
+        notes: "It's a chain and they're all meh.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "meet_korean_bbq",
+        name: "Meet Korean BBQ",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "kbbq", "korean"],
+        address: "500 E Pike St, Seattle, WA 98122",
+        notes: "Meat selection is pretty good but you're paying for it.",
+        dateOfReview: "2022"
+    },
+    {
+        id: "daniels_broiler",
+        name: "Daniel's Broiler",
+        neighbourhood: "slu",
+        value: "medium",
+        tags: ["slu", "steakhouse"],
+        address: "809 Fairview Pl N, Seattle, WA 98109",
+        notes: "Chain steakhouse - it's very pricey. Get your company to pay for dinner.",
+        dateOfReview: "2023"
+    },
+    
 ];

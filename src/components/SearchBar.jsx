@@ -13,6 +13,10 @@ function SearchBar({search, setSearch, currentInput, setCurrentInput, deleteFnc}
                 }
                 setCurrentInput("");
                 break;
+            case "Backspace":
+                if (currentInput.length === 0 && search.length > 0) {
+                    setSearch(search.slice(0, -1));
+                }
         }
     };
     const handleChange = (input) => {
