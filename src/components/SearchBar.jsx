@@ -25,7 +25,7 @@ function SearchBar({search, setSearch, currentInput, setCurrentInput, deleteFnc}
     return (
         <div id="search-bar">
             {search.map((element, key) => <Tag key={key} name={element} search={search} setSearch={setSearch} mode="delete" />)}
-            <input placeholder="Use comma or Enter key to seperate tags" onKeyDown={handleSearchInput} onChange={handleChange} value={currentInput}/>
+            <input placeholder="Use comma or Enter key to separate tags" onKeyDown={handleSearchInput} onChange={handleChange} value={currentInput}/>
         </div>
     )
 }

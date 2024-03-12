@@ -1214,5 +1214,15 @@ export const seattle = [
         address: "213 Broadway E, Seattle, WA 98102",
         notes: "-",
         dateOfReview: "2023"
+    },
+    {
+        id: "soju_anju_bar",
+        name: "Soju Anju Bar",
+        neighbourhood: "capitol hill",
+        value: "medium",
+        tags: ["capitol hill", "bar", "korean"],
+        address: "1621 12th Ave, Seattle, WA 98122",
+        notes: "-",
+        dateOfReview: "2021"
     }
 ];
