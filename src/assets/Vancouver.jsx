@@ -1,5 +1,5 @@
 export const vancouverFilterCategories = [
-    ["broadway", "cambie", "chinatown", "commerical drive", "downtown", "dunbar",
+    ["broadway", "cambie", "chinatown", "commerical drive", "downtown", "dunbar", "east van",
     "granville", "granville island", "kerrisdale", "kitsilano", "main", "mt pleasant",
     "north van", "olympic village", "point grey", "richmond", "ubc"]
 ];
@@ -622,6 +622,156 @@ export const vancouver = [
         value: "to try",
         tags: ["downtown", "katsu", "japanese"],
         address: "1588 Robson St, Vancouver, BC V6G 2G5, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "finchs",
+        name: "Finch's",
+        neighbourhood: "chinatown",
+        value: "to try",
+        tags: ["chinatown", "tea"],
+        address: "353 W Pender St, Vancouver, BC V6B 1T1, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "yin_dessert",
+        name: "Yin Dessert",
+        neighbourhood: "richmond",
+        value: "to try",
+        tags: ["richmond", "dessert"],
+        address: "8477 Bridgeport Rd #535, Richmond, BC V6X 0S8, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "the_stock_room",
+        name: "The Stock Room",
+        neighbourhood: "downtown",
+        value: "to try",
+        tags: ["downtown", "speakeasy", "cocktails"],
+        address: "1144 Homer St, Vancouver, BC V6B 2X6, Canada",
+        notes: "Behind Hundy.",
+        dateOfReview: ""
+    },
+    {
+        id: "h2_kitchen_bar",
+        name: "H2 Kitchen + Bar",
+        neighbourhood: "downtown",
+        value: "to try",
+        tags: ["downtown", "gastropub"],
+        address: "1601 Bayshore Dr., Vancouver, BC V6G 2V4, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "suyo_modern_peruvian",
+        name: "SUYO Modern Peruvian",
+        neighbourhood: "main",
+        value: "to try",
+        tags: ["main", "peruvian"],
+        address: "3475 Main St, Vancouver, BC V5V 3M9, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "osteria_savio_volpe",
+        name: "Osteria Savio Volpe",
+        neighbourhood: "mt pleasant",
+        value: "to try",
+        tags: ["mt pleasant", "italian"],
+        address: "615 Kingsway, Vancouver, BC V5T 3K5, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "tina_cake_desserts",
+        name: "Tina Cake Desserts",
+        neighbourhood: "east van",
+        value: "to try",
+        tags: ["east van", "dessert"],
+        address: "2528 Kingsway, Vancouver, BC V5R 5H2, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "two_horns_korean_bbq_house",
+        name: "Two Horns Korean BBQ House",
+        neighbourhood: "richmond",
+        value: "high",
+        tags: ["richmond", "kbbq", "korean"],
+        address: "4231 Hazelbridge Wy, Richmond, BC V6X 3L7, Canada",
+        notes: "KBBQ doesn't tend to be great value in Vancouver but this place bucks the trend.",
+        dateOfReview: "2023"
+    },
+    {
+        id: "sweet_memory",
+        name: "Sweet Memory",
+        neighbourhood: "richmond",
+        value: "to try",
+        tags: ["richmond", "taiwanese"],
+        address: "8080 Leslie Rd #130, Richmond, BC V6X 4A8, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "crackle_creme",
+        name: "Crackle Creme",
+        neighbourhood: "chinatown",
+        value: "to try",
+        tags: ["chinatown", "cafe", "desserts"],
+        address: "245 Union St, Vancouver, BC V6A 2B2, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "sushi_okeya_kyujiro",
+        name: "Sushi Okeya Kyujiro",
+        neighbourhood: "downtown",
+        value: "to try",
+        tags: ["downtown", "sushi", "japanese"],
+        address: "1038 Mainland St, Vancouver, BC V6B 2T4, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "the_victor",
+        name: "The Victor",
+        neighbourhood: "downtown",
+        value: "to try",
+        tags: ["downtown", "steakhouse"],
+        address: "39 Smithe St, Vancouver, BC V6B 0R3, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "honey_salt",
+        name: "Honey Salt",
+        neighbourhood: "downtown",
+        value: "to try",
+        tags: ["downtown", "canadian"],
+        address: "39 Smithe St, Vancouver, BC V6B 5E7, Canada",
+        notes: "Apparently, Post Malone's favourite restaurant.",
+        dateOfReview: ""
+    },
+    {
+        id: "wabagel_by_aburi",
+        name: "WA-BAGEL by ABURI",
+        neighbourhood: "downtown",
+        value: "to try",
+        tags: ["downtown", "bagels", "japanese"],
+        address: "666 Burrard St Unit No. B09, Vancouver, BC V6C 2X8, Canada",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "top_shanghai_cuisine_restaurant",
+        name: "Top Shanghai Cuisine Restaurant",
+        neighbourhood: "richmond",
+        value: "to try",
+        tags: ["richmond", "chinese"],
+        address: "8100 Ackroyd Rd #120, Richmond, BC V6X 3K2, Canada",
         notes: "",
         dateOfReview: ""
     },
