@@ -890,16 +890,6 @@ export const seattle = [
         name: "Shambles",
         neighbourhood: "green lake",
         value: "to try",
-        tags: ["green lake", "italian"],
-        address: "7777 15th Ave NE, Seattle, WA 98115",
-        notes: "Contender for best Italian in town.",
-        dateOfReview: ""
-    },
-    {
-        id: "shambles",
-        name: "Shambles",
-        neighbourhood: "green lake",
-        value: "to try",
         tags: ["green lake", "sandwiches"],
         address: "7777 15th Ave NE, Seattle, WA 98115",
         notes: "",
