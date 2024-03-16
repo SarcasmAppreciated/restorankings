@@ -567,7 +567,7 @@ export const vancouver = [
     },
     {
         id: "john_316_malaysian_delights",
-        name: "John_316_Malaysian Delights",
+        name: "John 316 Malaysian Delights",
         neighbourhood: "granville",
         value: "to try",
         tags: ["granville", "malaysian"],
@@ -602,16 +602,6 @@ export const vancouver = [
         value: "to try",
         tags: ["downtown", "french", "bakery"],
         address: "1164 Robson St, Vancouver, BC V6E 1B2, Canada",
-        notes: "",
-        dateOfReview: ""
-    },
-    {
-        id: "saku",
-        name: "Saku",
-        neighbourhood: "downtown",
-        value: "to try",
-        tags: ["downtown", "katsu", "japanese"],
-        address: "1588 Robson St, Vancouver, BC V6G 2G5, Canada",
         notes: "",
         dateOfReview: ""
     },
