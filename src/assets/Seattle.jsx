@@ -1027,7 +1027,7 @@ export const seattle = [
     },
     {
         id: "rock_creek",
-        name: "The Boat",
+        name: "Rock Creek",
         neighbourhood: "fremont",
         value: "to try",
         tags: ["fremont", "seafood"],
