@@ -4,7 +4,7 @@ function MapIframe({name, address}) {
         <iframe
             width="600"
             height="450"
-            style={{border: "0", width: "600px", height: "450px"}}
+            style={{border: "0", width: "600px", height: "450px", marginTop: "20px"}}
             loading="lazy"
             allowfullscreen
             referrerpolicy="no-referrer-when-downgrade"
