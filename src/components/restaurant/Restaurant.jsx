@@ -3,6 +3,7 @@ import Header from "./Header";
 import "./Restaurant.css";
 import { getRestaurantData } from "../../assets/CityRouter";
 import Property from "./Property";
+import MapIframe from "./MapIframe";
 
 function Restaurant() {
     const {restaurantId} = useParams();
@@ -18,6 +19,7 @@ function Restaurant() {
             <Property keyName="tags" value={filterOutNeighbourhood} />
             <Property keyName="review freshness" value={restaurant.dateOfReview} isText={true} />
             <Property keyName="notes" value={restaurant.notes} isText={true} isNotes={true} />
+            <MapIframe name={restaurant.name} address={restaurant.address} />
         </>
     )
 }

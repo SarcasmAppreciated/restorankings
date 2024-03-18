@@ -1214,5 +1214,25 @@ export const seattle = [
         address: "1621 12th Ave, Seattle, WA 98122",
         notes: "-",
         dateOfReview: "2021"
+    },
+    {
+        id: "chengdu_memory",
+        name: "Chengdu Memory",
+        neighbourhood: "international district",
+        value: "medium",
+        tags: ["international district", "hotpot", "sichuan", "chinese"],
+        address: "520 S Jackson St, Seattle, WA 98104",
+        notes: "It's decent and lots of interesting choices but prices is a little high.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "oxbow_bakery",
+        name: "Oxbow Bakery",
+        neighbourhood: "eastlake",
+        value: "high",
+        tags: ["eastlake", "bagels", "pizza", "bakery"],
+        address: "2307 24th Ave E, Seattle, WA 98112",
+        notes: "I love the smoked salmon - it's not lox: it's legit pieces of salmon that has been smoked.",
+        dateOfReview: "2024"
     }
 ];
