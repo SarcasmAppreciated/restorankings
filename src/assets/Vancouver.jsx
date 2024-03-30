@@ -17,7 +17,7 @@ export const vancouver = [
     },
     {
         id: "raisu",
-        name: "raisu",
+        name: "Raisu",
         neighbourhood: "kitsilano",
         value: "high",
         tags: ["kitsilano", "izakaya", "japanese"],
@@ -306,8 +306,8 @@ export const vancouver = [
         dateOfReview: "2023"
     },
     {
-        id: "Nook",
-        name: "nook",
+        id: "nook",
+        name: "Nook",
         neighbourhood: "kitsilano",
         value: "high",
         tags: ["kitsilano", "italian"],
@@ -765,4 +765,24 @@ export const vancouver = [
         notes: "",
         dateOfReview: ""
     },
+    {
+        id: "baoguette_vietnamese_bistro",
+        name: "Baoguette Vietnamese Bistro",
+        neighbourhood: "kerrisdale",
+        value: "middle",
+        tags: ["kerrisdale", "pho", "vietnamese"],
+        address: "2114 W 41st Ave, Vancouver, BC V6M 1Z2, Canada",
+        notes: "Cash only.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "asa_sushi",
+        name: "ASA Sushi",
+        neighbourhood: "kerrisdale",
+        value: "middle",
+        tags: ["kerrisdale", "sushi", "japanese"],
+        address: "2178 W 41st Ave, Vancouver, BC V6M 1Z1, Canada",
+        notes: "-",
+        dateOfReview: "2024"
+    }
 ];
