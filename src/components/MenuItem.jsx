@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import "./MenuItem.css";
 import Tag from "./Tag";
 
-function MenuItem({element, search, setSearch}) {
+function MenuItem({element, search, setSearch, city}) {
     return (
         <div className="menu-item-wrapper">
             <Link
                 className="no-underline"
-                to={`restaurant/${element.id}`}>
+                to={`city/${city}/restaurant/${element.id}`}>
                 <h3 className="resto">{element.name}</h3>
             </Link>
             <div className="tag-wrapper">

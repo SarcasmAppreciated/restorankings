@@ -10,7 +10,7 @@ const defaultRouter = createHashRouter([
         element: <Menu />
     },
     {
-        path: "/restaurant/:restaurantId",
+        path: "/city/:cityId/restaurant/:restaurantId",
         element: <Restaurant />
     }
 ]);

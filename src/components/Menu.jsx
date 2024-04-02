@@ -36,7 +36,8 @@ function Menu() {
                 filteredSample={filteredSample}
                 filterCategories={filterCategories}
                 search={search}
-                setSearch={setSearch} />
+                setSearch={setSearch}
+                city={city} />
         </>
     )
 }

@@ -2,7 +2,7 @@ import "./List.css";
 import FilterCategory from "./FilterCategory";
 import MenuItem from "./MenuItem";
 
-function List({filter, filters, filterCategories, filteredSample, search, setSearch}) {
+function List({filter, filters, filterCategories, filteredSample, search, setSearch, city}) {
     let filterMap = new Map();
     filterCategories[filter].forEach((filterName) => {
         filterMap.set(filterName, filteredSample.filter((resto) => resto[filters[filter]] === filterName));
@@ -19,7 +19,8 @@ function List({filter, filters, filterCategories, filteredSample, search, setSea
                             key={key}
                             element={element}
                             search={search}
-                            setSearch={setSearch} />
+                            setSearch={setSearch}
+                            city={city} />
                     )}
                 </div>
             )}
