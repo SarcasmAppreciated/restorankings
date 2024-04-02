@@ -6,8 +6,8 @@ function MapIframe({name, address}) {
             height="450"
             style={{border: "0", width: "600px", height: "450px", marginTop: "20px"}}
             loading="lazy"
-            allowfullscreen
-            referrerpolicy="no-referrer-when-downgrade"
+            allowFullscreen
+            referrerPolicy="no-referrer-when-downgrade"
             src={`https://www.google.com/maps/embed/v1/place?key=${API_KEY}&q=${name},${address}`}>
         </iframe>
     )

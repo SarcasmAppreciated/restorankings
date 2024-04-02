@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import "./Menu.css"
 import CityHeader from "./CityHeader";
+import { CityContext } from "../Context";
 import Filter from "./Filter";
 import List from "./List";
 import SearchBar from "./SearchBar";
@@ -8,7 +9,7 @@ import { cities, getCityNeighbourhoods, getCityData } from "../assets/CityRouter
 import { defaultFilterCategories, filters } from "../assets/Constants";
 
 function Menu() {
-    const [city, setCity] = useState(cities[0]);
+    const [city, setCity] = useContext(CityContext);
     const [search, setSearch] = useState([]);
     const [currentInput, setCurrentInput] = useState("");
     const [filter, setFilter] = useState(0);

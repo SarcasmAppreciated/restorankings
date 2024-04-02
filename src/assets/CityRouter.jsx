@@ -24,13 +24,8 @@ export function getCityData(city) {
     }
 }
 
-export function getRestaurantData(restaurantId) {
-    console.log(getAllCityData())
-    return getAllCityData().filter((element) => element.id === restaurantId)[0];
-}
-
-function getAllCityData() {
-     return seattle.concat(vancouver);
+export function getRestaurantData(city, restaurantId) {
+    return getCityData(city).filter((element) => element.id === restaurantId)[0];
 }
 
 export const cities = ["seattle", "vancouver", "bbt"];

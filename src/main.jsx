@@ -9,7 +9,7 @@ import App from "./App";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App>
-      <RouterProvider router = {defaultRouter} />
+      <RouterProvider router={defaultRouter} />
     </App>
   </React.StrictMode>,
 )

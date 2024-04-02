@@ -4,10 +4,13 @@ import "./Restaurant.css";
 import { getRestaurantData } from "../../assets/CityRouter";
 import Property from "./Property";
 import MapIframe from "./MapIframe";
+import { CityContext } from "../../Context";
+import { useContext } from "react";
 
 function Restaurant() {
+    const [city] = useContext(CityContext);
     const {restaurantId} = useParams();
-    const restaurant = getRestaurantData(restaurantId);
+    const restaurant = getRestaurantData(city, restaurantId);
     const filterOutNeighbourhood =
         restaurant.tags.filter((element) => element !== restaurant.neighbourhood);
     return (
