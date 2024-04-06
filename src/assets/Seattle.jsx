@@ -1099,21 +1099,11 @@ export const seattle = [
         id: "azuki",
         name: "Azuki",
         neighbourhood: "central district",
-        value: "to try",
+        value: "high",
         tags: ["central district", "udon", "japanese"],
         address: "2711 E Madison St, Seattle, WA 98112",
-        notes: "",
-        dateOfReview: ""
-    },
-    {
-        id: "oxbow",
-        name: "Oxbow",
-        neighbourhood: "eastlake",
-        value: "to try",
-        tags: ["eastlake", "bagels", "bakery"],
-        address: "2307 24th Ave E, Seattle, WA 98112",
-        notes: "",
-        dateOfReview: ""
+        notes: "Initially feels expensive until they give you the entire set menu and an entire bottle for tea.",
+        dateOfReview: "2024"
     },
     {
         id: "portage_bay_cafe",
