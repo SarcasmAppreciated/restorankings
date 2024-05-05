@@ -977,7 +977,7 @@ export const seattle = [
     },
     {
         id: "bar_cotto",
-        name: "Bar cotto",
+        name: "Bar Cotto",
         neighbourhood: "capitol hill",
         value: "to try",
         tags: ["capitol hill", "pizza", "bar"],
@@ -1223,6 +1223,16 @@ export const seattle = [
         tags: ["eastlake", "bagels", "pizza", "bakery"],
         address: "2307 24th Ave E, Seattle, WA 98112",
         notes: "I love the smoked salmon - it's not lox: it's legit pieces of salmon that has been smoked.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "ooshiba_yakitori_sushi",
+        name: "Ooshiba Yakitori & Sushi",
+        neighbourhood: "fremont",
+        value: "high",
+        tags: ["fremont", "yakitori", "sushi", "japanese"],
+        address: "3515 Stone Way N, Seattle, WA 98103",
+        notes: "Shares a location with Figurehead Brewing and a few other places; might be hard to get seating. Really yummy yakitori and skewers - get rice.",
         dateOfReview: "2024"
     }
 ];
