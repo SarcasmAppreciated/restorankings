@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import "./Menu.css"
 import CityHeader from "./CityHeader";
-import { CityContext } from "../Context";
+import { CityContext, FilterContext } from "../Context";
 import Filter from "./Filter";
 import List from "./List";
 import SearchBar from "./SearchBar";
@@ -12,7 +12,7 @@ function Menu() {
     const [city, setCity] = useContext(CityContext);
     const [search, setSearch] = useState([]);
     const [currentInput, setCurrentInput] = useState("");
-    const [filter, setFilter] = useState(0);
+    const [filter, setFilter] = useContext(FilterContext);
     const filterCategories = getCityNeighbourhoods(city, defaultFilterCategories);
     const filteredSample = getCityData(city).filter((resto) => search.every(v => resto.tags.includes(v)));
     return (

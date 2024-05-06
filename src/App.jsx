@@ -1,15 +1,18 @@
 import "./App.css";
 import { useState } from "react";
-import { CityContext } from "./Context";
+import { CityContext, FilterContext } from "./Context";
 
 function App({children}) {
     const [city, setCity] = useState("seattle");
+    const [filter, setFilter] = useState(0);
 
     return (
         <CityContext.Provider value={[city, setCity]}>
-            <div id="app">
-                {children}
-            </div>
+            <FilterContext.Provider value={[filter, setFilter]}>
+                <div id="app">
+                    {children}
+                </div>
+            </FilterContext.Provider>
         </CityContext.Provider>
     )
 }
