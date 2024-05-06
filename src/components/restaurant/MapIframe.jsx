@@ -1,4 +1,5 @@
 function MapIframe({name, address}) {
+    const filteredName = name.replace("&", "%26");
     const API_KEY = "AIzaSyBnqey4RiuVvC7Gvd_HgubzSHnggkvAJIc";
     return (
         <iframe
@@ -8,7 +9,7 @@ function MapIframe({name, address}) {
             loading="lazy"
             allowFullscreen
             referrerPolicy="no-referrer-when-downgrade"
-            src={`https://www.google.com/maps/embed/v1/place?key=${API_KEY}&q=${name},${address}`}>
+            src={`https://www.google.com/maps/embed/v1/place?key=${API_KEY}&q=${filteredName},${address}`}>
         </iframe>
     )
 }
