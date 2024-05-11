@@ -867,7 +867,7 @@ export const seattle = [
     },
     {
         id: "serious_pie",
-        name: "Serious_Pie",
+        name: "Serious Pie",
         neighbourhood: "belltown",
         value: "low",
         tags: ["belltown", "pizza"],
