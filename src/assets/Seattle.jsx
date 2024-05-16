@@ -1234,5 +1234,15 @@ export const seattle = [
         address: "3515 Stone Way N, Seattle, WA 98103",
         notes: "Shares a location with Figurehead Brewing and a few other places; might be hard to get seating. Really yummy yakitori and skewers - get rice.",
         dateOfReview: "2024"
+    },
+    {
+        id: "lark_restaurant",
+        name: "Lark Restaurant",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "american"],
+        address: "952 E Seneca St, Seattle, WA 98122",
+        notes: "Got the set course menu and it was great value; get something besides the steak IMO.",
+        dateOfReview: "2024"
     }
 ];
