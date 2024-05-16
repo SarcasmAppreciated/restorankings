@@ -936,16 +936,6 @@ export const seattle = [
         dateOfReview: ""
     },
     {
-        id: "manolin",
-        name: "Manolin",
-        neighbourhood: "fremont",
-        value: "to try",
-        tags: ["fremont", "american"],
-        address: "3621 Stone Way N, Seattle, WA 98103",
-        notes: "",
-        dateOfReview: ""
-    },
-    {
         id: "skal_beer_hall",
         name: "Skål Beer Hall",
         neighbourhood: "ballard",
