@@ -784,5 +784,25 @@ export const vancouver = [
         address: "2178 W 41st Ave, Vancouver, BC V6M 1Z1, Canada",
         notes: "-",
         dateOfReview: "2024"
+    },
+    {
+        id: "noahs_cafe",
+        name: "Noah's Cafe",
+        neighbourhood: "downtown",
+        value: "high",
+        tags: ["downtown", "fusion", "japanese", "cocktails"],
+        address: "1096 Denman St, Vancouver, BC V6G 2M8, Canada",
+        notes: "Awesome drinks; great food (japanse fused with various cusine types).",
+        dateOfReview: "2024"
+    },
+    {
+        id: "wasuta_pasta",
+        name: "Wasuta Pasta",
+        neighbourhood: "richmond",
+        value: "high",
+        tags: ["richmond", "fusion", "italian", "japanese", "low-high"],
+        address: "7080 River Rd #202, Richmond, BC V6X 1X5, Canada",
+        notes: "Usually 'low-high' is reserved for expensive restaurants that might be a little too expensive. This place is good but portions are little small.",
+        dateOfReview: "2024"
     }
 ];
