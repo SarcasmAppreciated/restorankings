@@ -1234,5 +1234,15 @@ export const seattle = [
         address: "952 E Seneca St, Seattle, WA 98122",
         notes: "Got the set course menu and it was great value; get something besides the steak IMO.",
         dateOfReview: "2024"
+    },
+    {
+        id: "oola_capitol_hill",
+        name: "OOLA Capitol Hill",
+        neighbourhood: "capitol hill",
+        value: "high",
+        tags: ["capitol hill", "american", "wine", "cocktails"],
+        address: "1412 E Union St, Seattle, WA 98122",
+        notes: "Food is as good as the drinks; the shared plates add up (roughly 4 per 2 ppl seems good).",
+        dateOfReview: "2024"
     }
 ];
