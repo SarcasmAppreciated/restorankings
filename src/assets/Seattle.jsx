@@ -1002,7 +1002,7 @@ export const seattle = [
         value: "high",
         tags: ["international district", "chicken", "vietnamese"],
         address: "1314 S Jackson St, Seattle, WA 98144",
-        notes: "Chicken and rice is a true combo; the pandan waffles are amazing.",
+        notes: "Chicken and rice is a true combo; the pandan waffles are amazing. Same ownership as Pho Bac.",
         dateOfReview: "2024"
     },
     {
