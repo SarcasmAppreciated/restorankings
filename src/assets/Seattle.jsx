@@ -999,11 +999,11 @@ export const seattle = [
         id: "the_boat",
         name: "The Boat",
         neighbourhood: "international district",
-        value: "to try",
-        tags: ["international district", "seafood"],
+        value: "high",
+        tags: ["international district", "chicken", "vietnamese"],
         address: "1314 S Jackson St, Seattle, WA 98144",
-        notes: "",
-        dateOfReview: ""
+        notes: "Chicken and rice is a true combo; the pandan waffles are amazing.",
+        dateOfReview: "2024"
     },
     {
         id: "rock_creek",
