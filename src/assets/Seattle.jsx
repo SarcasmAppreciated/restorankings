@@ -1019,21 +1019,11 @@ export const seattle = [
         id: "homer",
         name: "Homer",
         neighbourhood: "south seattle",
-        value: "to try",
+        value: "High",
         tags: ["south seattle", "mediterranean"],
         address: "3013 Beacon Ave S, Seattle, WA 98144",
-        notes: "",
-        dateOfReview: ""
-    },
-    {
-        id: "lark_restaurant",
-        name: "Lark Restaurant",
-        neighbourhood: "capitol hill",
-        value: "to try",
-        tags: ["capitol hill", "american"],
-        address: "952 E Seneca St, Seattle, WA 98122",
-        notes: "",
-        dateOfReview: ""
+        notes: "Everything we had was scrumptious; don't get baited by milk drunk - the flavours are more varied at Homer.",
+        dateOfReview: "2024"
     },
     {
         id: "light_sleeper",
