@@ -979,11 +979,11 @@ export const seattle = [
         id: "purple_cafe_and_wine_bar",
         name: "Purple Cafe and Wine Bar",
         neighbourhood: "downtown",
-        value: "to try",
+        value: "high",
         tags: ["downtown", "american"],
         address: "1225 4th Ave, Seattle, WA 98101",
-        notes: "",
-        dateOfReview: ""
+        notes: "If you're seeing a show nearby, allocate for more time; food takes a while to arrive.",
+        dateOfReview: "2024"
     },
     {
         id: "boat_bar",
