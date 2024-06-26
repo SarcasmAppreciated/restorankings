@@ -1234,5 +1234,15 @@ export const seattle = [
         address: "1412 E Union St, Seattle, WA 98122",
         notes: "Food is as good as the drinks; the shared plates add up (roughly 4 per 2 ppl seems good).",
         dateOfReview: "2024"
+    },
+    {
+        id: "haerfest",
+        name: "Haerfest",
+        neighbourhood: "fremont",
+        value: "to try",
+        tags: ["fremont", "italian"],
+        address: "4106 Stone Way N suite 104, Seattle, WA 98103",
+        notes: "",
+        dateOfReview: ""
     }
 ];
