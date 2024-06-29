@@ -979,7 +979,7 @@ export const seattle = [
         id: "purple_cafe_and_wine_bar",
         name: "Purple Cafe and Wine Bar",
         neighbourhood: "downtown",
-        value: "high",
+        value: "medium",
         tags: ["downtown", "american"],
         address: "1225 4th Ave, Seattle, WA 98101",
         notes: "If you're seeing a show nearby, allocate for more time; food takes a while to arrive.",
@@ -1242,6 +1242,36 @@ export const seattle = [
         value: "to try",
         tags: ["fremont", "italian"],
         address: "4106 Stone Way N suite 104, Seattle, WA 98103",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "old_salt_fish_and_bagel",
+        name: "Old Salt Fish and Bagel",
+        neighbourhood: "fremont",
+        value: "high",
+        tags: ["fremont", "bagels"],
+        address: "3621 Stone Way N, Seattle, WA 98103",
+        notes: "I'm sucker for smoked fish so this was an easy sell.",
+        dateOfReview: "2024"
+    },
+    {
+        id: "uminori",
+        name: "Uminori",
+        neighbourhood: "madison",
+        value: "to try",
+        tags: ["madison", "sushi", "japanese"],
+        address: "2106 E Madison St, Seattle, WA 98112",
+        notes: "",
+        dateOfReview: ""
+    },
+    {
+        id: "the_cheese_room",
+        name: "The Cheese Room",
+        neighbourhood: "capitol hill",
+        value: "to try",
+        tags: ["capitol hill", "italian"],
+        address: "1215 Pine St, Seattle, WA 98101",
         notes: "",
         dateOfReview: ""
     }
