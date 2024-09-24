@@ -804,5 +804,15 @@ export const vancouver = [
         address: "7080 River Rd #202, Richmond, BC V6X 1X5, Canada",
         notes: "Usually 'low-high' is reserved for expensive restaurants that might be a little too expensive. This place is good but portions are little small.",
         dateOfReview: "2024"
+    },
+    {
+        id: "botanist",
+        name: "Botanist",
+        neighbourhood: "downtown",
+        value: "high",
+        tags: ["downtown", "cocktails"],
+        address: "1038 Canada Place, Vancouver, BC V6C 0B9, Canada",
+        notes: "I've never tried the food because I've never gotten past how good the drinks are.",
+        dateOfReview: "2024"
     }
 ];
