@@ -1274,5 +1274,15 @@ export const seattle = [
         address: "1215 Pine St, Seattle, WA 98101",
         notes: "",
         dateOfReview: ""
+    },
+    {
+        id: "raccolto",
+        name: "Raccolto",
+        neighbourhood: "west seattle",
+        value: "high",
+        tags: ["west seattle", "italian"],
+        address: "4147 California Ave SW, Seattle, WA 98116",
+        notes: "So much bread; otherwise, fantastic meal.",
+        dateOfReview: "2024"
     }
 ];
